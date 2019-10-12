@@ -1,0 +1,360 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Candara", sans-serif;
+}
+
+body{
+background-color: rgb(230, 247, 255);
+}
+
+header{
+  background-color: black;
+  color: rgb(184, 153, 108);
+  width: 100%;
+  height: 100px;
+}
+
+nav{
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-ul li:hover{
+  transition: 1s;
+  font-size: 22px;
+}
+
+.mob-1, .mob-2{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 40%;
+}
+
+#logo{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+#pool_photo{
+  width: 100%;
+  height: 500px;
+}
+
+.main{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.booking{
+  position: relative;
+  margin-top: -100px;
+  height: 200px;
+  width: 80%;
+  background-color: rgba( 0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking>h2{
+  position: absolute;
+  top: 20px;
+  color: rgb(184, 153, 108);
+}
+
+input.input{
+color: black;
+height: 30px;
+width: 20%;
+background-color: rgba(184, 153, 108 , 0.6);
+border: none;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+}
+
+::placeholder{
+  color: black;
+}
+
+#button{
+  color: black;
+  height: 30px;
+  padding: 5px 15px;
+  background-color: rgba(184, 153, 108, 0.9);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  border: none;
+  width: 8em;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#describe{
+  padding-bottom: 20px;
+}
+
+.r{
+  margin-top: 60px;
+}
+
+.map{
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+}
+
+body>img{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+h1{
+  font-size: 40px;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 40px auto;
+}
+.room{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  margin:10px auto;
+  width: 90%;
+}
+.left, .right{
+  width: 45%;
+  height: 400px;
+  margin:10px 20px;
+  font-size: 16px;
+}
+.image{
+  padding-top: 20px;
+}
+.image img{
+width: 100%;
+height: 350px;
+ box-shadow: 5px 10px 8px 8px rgba(0, 0, 0, 0.2), 5px 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+  border-top: 1px solid black;
+  line-height: 22px;
+}
+h2{
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+h3{
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.book_now{
+  display: block;
+  margin:20px auto;
+  background-color: black;
+  border:none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact{
+  background-color:rgb(184, 153, 108);
+  color: black;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+}
+
+.part_of_contact{
+  width: 33%;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.part_of_contact>h2{
+  font-size: 30px;
+  text-align: left;
+}
+
+.contact_input{
+  display: flex;
+  align-items:flex-end;
+  height: 300px;
+  flex-direction: column;
+}
+
+.contact_input input, .contact_input textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+ #send{
+   width: 30%;
+   border:none;
+   background-color: black;
+   color:white;
+   padding: 5px;
+   border-radius: 20px;
+ }
+
+ #send_comment{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 5px;
+ }
+
+ #send_comment input{
+   width: 35%;
+ }
+
+ .part_of_contact>textarea{
+   width: 100%;
+ }
+
+ .person{
+   border-radius: 50%;
+ }
+ .guest{
+   position: relative;
+   top: 30%;
+ }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(184, 153, 108);
+  height: 50px;
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.bar_h2{
+  padding-bottom: 10px;
+}
+
+.bar_h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  html{
+    width: 100%;
+  }
+
+  .booking{
+    height: 350px;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .booking .input, #button{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #logo>img{
+    position: absolute;
+    top: 5px;
+    left:45%;
+    height: 80px;
+  }
+
+header{
+      padding-top: 100px;
+      height: 220px;
+}
+
+ .nav-ul{
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+  }
+
+  .mob-1, .mob-2{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h1{
+    width:100%;
+  }
+
+  .room{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 95%;
+    height: 1000px;
+  }
+
+  .left, .right{
+  width: 90%;
+  height: 400px !important;
+  flex: 1;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+  .text{
+      margin:10px;
+  }
+
+  .room_r{
+    flex-direction: column-reverse;
+  }
+
+  .contact{
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .part_of_contact{
+    width: 100%;
+  }
+
+  .guest{
+    top:0%;
+  }
+
+}
